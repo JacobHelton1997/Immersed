@@ -1,1 +1,1 @@
-# Immersed
+Immersed is a web application that facilitates cyber security training and education for many different organizations including K-12 schools, businesses, and the military. Immersed is an MVP and due to the proprietary nature of the code, only snippets of code are included. This repository includes .NET, SQL, and React code for the JobSchedules and ForgotPassword features.

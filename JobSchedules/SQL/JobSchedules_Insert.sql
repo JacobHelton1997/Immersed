@@ -6,7 +6,7 @@
 
 -- MODIFIED BY: <Jacob Helton>
 -- MODIFIED DATE: <12/2/2022>
--- Code Reviewer:
+-- Code Reviewer: Joe Medina
 -- Note: <Updating proc for Quartz JobController>
 -- =============================================
 
@@ -81,4 +81,3 @@ BEGIN
 	SET @Id = SCOPE_IDENTITY()
 
 END
-

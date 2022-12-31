@@ -1,0 +1,32 @@
+-- =============================================
+-- Author: Jacob Helton
+-- Create date: 12/19/2022
+-- Description: Selects all stripe products from dbo.StripeProducts
+-- Code Reviewer: Kevin Raya
+
+-- MODIFIED BY: 
+-- MODIFIED DATE:
+-- Code Reviewer:
+-- Note:
+-- =============================================
+
+ALTER proc [dbo].[StripeProducts_SelectAll]
+
+as
+
+/*-----TEST CODE-----
+
+	Execute dbo.StripeProducts_SelectAll
+
+*/
+
+BEGIN
+
+	SELECT [Name]
+		  ,[ProductId]
+		  ,[PriceId]
+		  ,[Price]
+		  ,[Description]
+	FROM dbo.StripeProducts
+
+END
